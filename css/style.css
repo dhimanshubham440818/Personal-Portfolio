@@ -466,7 +466,7 @@ pre {
       max-width: 1140px; } }
 
 .container-fluid {
-  width: 100
+  width: 100;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1735,6 +1735,9 @@ textarea.form-control {
 .form-check-label {
   margin-bottom: 0; }
 
+  .resumecenter{
+    margin: left;
+  }
 .form-check-inline {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
