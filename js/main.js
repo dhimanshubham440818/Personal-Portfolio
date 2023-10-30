@@ -289,6 +289,6 @@ var loader = function() {
 
 // this method execute on fir management system project link 
 var popup = function(event) {
-alert("This project has not been uploaded to any server");
+alert("something want wrong on server");
 event.preventDefault();
 };
