@@ -25,6 +25,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <div id="tsparticles"></div>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
     <div class="container">
       <a class="navbar-brand" href="#">WELCOME</a>
@@ -186,29 +187,6 @@
       <div class="row">
         <div class="col-md-6">
           <div class="resume-wrap ftco-animate">
-            <span class="date">2021-2023</span>
-            <h2>
-              Master's Degree of Computer <br />
-              Application
-            </h2>
-            <span class="position">AKTU University</span>
-            <p class="mt-4">
-              MCA is a two year long professional post-graduate degree course.
-              In this course i have completed my two projects which is Library
-              Management system and E-Commerce Web Application. And i have
-              done this course with 72.65% marks.
-            </p>
-          </div>
-          <div class="resume-wrap ftco-animate">
-            <span class="date">2016-2017</span>
-            <h2>Intermediate School</h2>
-            <span class="position">L.J.P.S.V.M. Inter College</span>
-            <p class="mt-4">
-              I had taken PCM(Physics, Chemistry, Mathematics) in my 12th
-              Class. And my score was 62.2% marks.
-            </p>
-          </div>
-          <div class="resume-wrap ftco-animate">
             <span class="date">2023-2023</span>
             <h2>Mern Stack Developer</h2>
             <span class="position">Value Innovation Labs Noida ( MERN )</span>
@@ -222,27 +200,8 @@
             </p>
           </div>
         </div>
+
         <div class="col-md-6">
-          <div class="resume-wrap ftco-animate">
-            <span class="date">2017-2020</span>
-            <h2>Bachelor's Degree of Computer Application</h2>
-            <span class="position">CCS University</span>
-            <p class="mt-4">
-              BCA is a three year long professional under-graduate degree
-              course. In this course i have completed my one projects in my
-              final year which is FIR Management system based on Java
-              Language. And i have done this course with 59.00% marks.
-            </p>
-          </div>
-          <div class="resume-wrap ftco-animate">
-            <span class="date">2014-2015</span>
-            <h2>High School</h2>
-            <span class="position">L.J.P.S.V.M. Inter College</span>
-            <p class="mt-4">
-              I had taken Computer Science in my 10th Class. And my score was
-              69.5% marks.
-            </p>
-          </div>
           <div class="resume-wrap ftco-animate">
             <span class="date">2023-2023</span>
             <h2>Java Trainee</h2>
@@ -256,6 +215,62 @@
             </p>
           </div>
         </div>
+
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2021-2023</span>
+            <h2>
+              Master's Degree of Computer <br />
+              Application
+            </h2>
+            <span class="position">AKTU University</span>
+            <p class="mt-4">
+              MCA is a two year long professional post-graduate degree course.
+              In this course i have completed my two projects which is Library
+              Management system and E-Commerce Web Application. And i have
+              done this course with 72.65% marks.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2017-2020</span>
+            <h2>Bachelor's Degree of Computer Application</h2>
+            <span class="position">CCS University</span>
+            <p class="mt-4">
+              BCA is a three year long professional under-graduate degree
+              course. In this course i have completed my one projects in my
+              final year which is FIR Management system based on Java
+              Language. And i have done this course with 59.00% marks.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2016-2017</span>
+            <h2>Intermediate School</h2>
+            <span class="position">L.J.P.S.V.M. Inter College</span>
+            <p class="mt-4">
+              I had taken PCM(Physics, Chemistry, Mathematics) in my 12th
+              Class. And my score was 62.2% marks.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2014-2015</span>
+            <h2>High School</h2>
+            <span class="position">L.J.P.S.V.M. Inter College</span>
+            <p class="mt-4">
+              I had taken Computer Science in my 10th Class. And my score was
+              69.5% marks.
+            </p>
+          </div>
+        </div>
+
       </div>
       <div class="row justify-content-center mt-5">
         <div class="col-md-6 text-center ftco-animate">
@@ -379,7 +394,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="col-md-6 animate-box">
           <div class="progress-wrap ftco-animate">
             <h3>MONGODB</h3>
@@ -578,9 +593,9 @@
       </div>
 
       <div class="row no-gUttars block-9 ">
-        <div class="col-md-6 order-md-last d-flex">
+        <div class="col-md-12 order-md-last d-flex">
           <form action="#" method="post" data-netlify="true" name="contact"
-            class="bg-light p-4 p-md-5 rounded contact-form">
+            class="formbgh p-4 p-md-5 rounded contact-form">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Your Name" name="name" />
             </div>
@@ -594,14 +609,14 @@
               <textarea cols="30" rows="7" class="form-control" placeholder="Message" name="message"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5" />
+              <button type="submit" value="Send Message" class="btn btn-primary py-3 px-5">Send Message</button>
             </div>
           </form>
         </div>
 
-        <div class="col-md-6 d-flex">
+        <!-- <div class="col-md-6 d-flex">
           <div class="img" style="background-image: url(images/shubham.png)"></div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -716,7 +731,11 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+    integrity="sha256-uNYoXefWRqv+PsIF/OflNmwtKM4lStn9yrz2gVl6ymo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.17.5/dist/tsparticles.min.js"
+    integrity="sha256-Wcr5q//r5yGozjRl+ToXruCoy75vgiApkKsV30aCns8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/particles.js"></script>
   <script src="js/main.js"></script>
 </body>
 
