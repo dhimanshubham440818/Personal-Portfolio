@@ -11764,7 +11764,8 @@ h5,
 
 .ftco-navbar-light {
   background: transparent !important;
-  position: absolute;
+  position: sticky;
+  text-align: center;
   top: 0;
   left: 0;
   right: 0;
@@ -11773,7 +11774,7 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: transparent !important;
     position: relative;
     top: 0;
     padding-top: 0;
@@ -13074,6 +13075,11 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden;
+}
+
+.footer_socail_icon_effect:hover {
+  background-color: #ffbd39;
+  border-radius: 50%;
 }
 
 .bg-primary {
