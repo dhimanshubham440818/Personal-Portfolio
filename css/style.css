@@ -12712,6 +12712,45 @@ h5,
   color: #ffbd39;
 }
 
+
+
+.ftco-about2 ul.about-info {
+  padding: 0;
+  margin: 0;
+}
+
+.ftco-about2 ul.about-info li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.ftco-about2 ul.about-info li span {
+  width: calc(100% - 130px);
+}
+
+.ftco-about2 ul.about-info li span:first-child {
+  font-weight: 600;
+  color: #fff;
+  width: 130px;
+}
+
+.ftco-about2 .counter-wrap .text p {
+  font-size: 20px;
+}
+
+.ftco-about2 .counter-wrap .text p span {
+  font-weight: 400;
+  color: #fff;
+}
+
+.ftco-about2 .counter-wrap .text p span.number {
+  font-weight: 600;
+  color: #ffbd39;
+}
+
+
+
+
 .resume-wrap {
   width: 100%;
   margin-bottom: 30px;
@@ -13223,13 +13262,16 @@ textarea.form-control {
 }
 
 
-.formbgh{background: rgba(255, 255, 255, 0.1) !important;}
+.formbgh{background: rgba(255, 255, 255, 0.0) !important;}
 .formbgh input, .formbgh textarea{background: rgba(255, 255, 255, 0.8) !important;}
 
 .media .ftco-icon {
   width: 100px;
 }
-
+.bg_custom{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
 .media .ftco-icon span {
   color: #ffbd39;
 }
