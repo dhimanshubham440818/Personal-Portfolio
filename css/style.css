@@ -12293,7 +12293,7 @@ h5,
   }
 }
 
-.owl-carousel.home-slider .slider-item .slider-text .subheading {
+.subheading {
   color: #000000;
   font-weight: 600;
   font-size: 14px;
@@ -12315,6 +12315,20 @@ h5,
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 span {
+  font-weight: 800;
+  color: #ffbd39;
+}
+
+
+
+.home-banner h1 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.home-banner h1 span {
   font-weight: 800;
   color: #ffbd39;
 }
