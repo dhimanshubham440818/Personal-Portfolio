@@ -123,8 +123,8 @@ AOS.init({
 	}
 	
 	var element = $('#typing-text');
-	var text = "Welcome to Our Website!"; // Text to be typed
-	var speed = 200; // Typing speed (ms)
+	var text = "I craft digital solutions that put users at the forefront of innovation. Where code meets creativity, and users take center stage."; // Text to be typed
+	var speed = 80; // Typing speed (ms)
 	typingEffect(element, text, speed); // Call typing effect
 		
 	$('nav .dropdown').hover(function () {

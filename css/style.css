@@ -12762,7 +12762,8 @@ h5,
   color: #ffbd39;
 }
 
-
+.col-md-6{display:flex; flex-direction: column;}
+.col-md-6 .resume-wrap{flex:1;}
 
 
 .resume-wrap {
@@ -12774,6 +12775,7 @@ h5,
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
+  /* height:100%; */
 }
 
 .resume-wrap .date {
@@ -13130,6 +13132,13 @@ textarea.form-control {
   visibility: hidden;
 }
 
+
+.contact-section .box .icon:hover{
+  background-color: #ffbd39;
+  color:#fff;
+  cursor: pointer;
+}
+.contact-section .box .icon:hover span{color:#fff;}
 .footer_socail_icon_effect:hover {
   background-color: #ffbd39;
   border-radius: 50%;
@@ -13151,14 +13160,22 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding:2em 0;
   position: relative;
 }
+#typing-text{min-height:58px;}
 
 @media (max-width: 767.98px) {
   .ftco-section {
-    padding: 6em 0;
+    padding: 0em 0;
   }
+  .ftco-hireme h2{font-size:32px;}
+  .home-banner .text{    position: absolute; text-align: center;
+    z-index: 2;}
+  #typing-text{height:80px;}
+  #about-section{padding-top:8rem;}
+
+  #home-section img{ opacity:0.7;}
 }
 
 .ftco-no-pt {
@@ -13175,7 +13192,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
+  padding:3em 0;
   z-index: 0;
 }
 
@@ -13393,6 +13410,7 @@ textarea.form-control {
 .blog-img,
 .user-img {
   background-size: cover;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -13441,7 +13459,8 @@ textarea.form-control {
   display: block;
   width: 100%;
   text-align: center;
-  background: #191919;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
   padding: 30px 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -13640,7 +13659,6 @@ textarea.form-control {
   height: 100px;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 auto;
-  margin-bottom: 2em;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
