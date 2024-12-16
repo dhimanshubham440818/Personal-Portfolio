@@ -12322,7 +12322,7 @@ h5,
 
 
 .home-banner h1 {
-  font-size: 60px;
+  font-size: 45px;
   color: #fff;
   line-height: 1.2;
   font-weight: 800;
@@ -13474,9 +13474,14 @@ textarea.form-control {
   font-weight: 700;
   font-size: 30px;
   color: #ffbd39;
-  display: block;
+  display: inline;
 }
-
+.ftco-counter .text strong {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffbd39;
+  display: inline;
+}
 .ftco-counter .text span {
   display: block;
   font-size: 16px;
@@ -14010,6 +14015,8 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
 }
+
+.btnbotton{position:absolute; bottom:0px; left: 20px; background:#333; border-radius:4px; color:#ffbd39; padding:1px 10px; cursor: pointer;}
 
 @-webkit-keyframes loader-rotate {
   100% {
